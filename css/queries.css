@@ -261,7 +261,7 @@
   }
 
   .step-img-box:nth-child(6) {
-    grid-row: 5;
+    grid-row: 3;
   }
 
   .step-img-box {
@@ -289,6 +289,10 @@
     height: 32rem;
     grid-row: 1;
   }
+}
+.heading-tertiary{
+  font-size: 2rem;
+  line-height: 0.8;
 }
 
 /* 
