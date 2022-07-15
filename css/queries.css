@@ -267,6 +267,9 @@
   .step-img-box {
     transform: translateY(2.4rem);
   }
+  .step-img{
+    width:90%;
+  }
 
   .testimonials {
     grid-template-columns: 1fr;
