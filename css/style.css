@@ -175,6 +175,250 @@ body{
     font-weight: 700;
 }
 
+
+
+ /* ******** FEATURED SECTION ***** */
+ .section-featured{
+  padding: 4.8rem 0 3.2rem 0;
+
+
+ }
+ .contain{
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+
+
+ }
+ .heading-featured-in{
+ text-align: center; 
+ text-transform: uppercase;
+ margin-bottom: 20px;
+ letter-spacing: 1px ;
+
+
+ }
+ .logos{
+  display: flex;
+  justify-content: space-between;
+
+ }
+ .logos img{
+  height:3.2rem;
+  opacity: 50%;
+  filter: brightness(0);
+ }
+
+
+ /* ***********HOW IT WORKS****** */
+
+    .section-how{
+      padding:9.6rem 0;
+
+    }
+    .container{
+      max-width: 120rem;
+      padding: 0 3.2rem;
+      margin: 0 auto;
+    
+
+    }
+    .subheading{
+
+    }
+    .heading-secondary{
+
+    }
+    .heading-tertiary{
+
+    }
+     .grid {
+      display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+
+     }
+     .grid--2-cols{
+      grid-template-columns: repeat(2,1fr);
+     
+     }
+    .grid--center-v{
+      align-items: center;
+
+    }
+    .step-text-box{
+
+    }
+    .step-number{
+      font-size: 86px;
+      font-weight:600;
+      color:#ddd;
+      margin-bottom: 12px;
+    
+
+    }
+    .step-img-box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .step-img{
+      width: 35%;
+
+    }
+
+
+    .heading-tertiary{
+
+    }
+    .step-description{
+      font-size: 18px;
+      line-height: 1.8;
+
+    }
+
+  /* ****** CALL TO ACTION ***** */
+  .section-cta{
+    padding: 48px 0;
+
+  }
+  .cta{
+    display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #e67e22; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
+
+  }
+  .cta-text-box{
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #45260a;
+
+  }
+  .cta .heading-secondary {
+    /* color: #45260a; */
+    color: inherit;
+    margin-bottom: 3.2rem;
+  }
+  
+  .cta-text{
+    font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+
+  }
+  .cta-form{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+
+  }
+  .cta-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+  }
+  .cta-img-box{
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+
+  }
+  .cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+
+/**************************/
+/* TESTIMONIALS SECTION */
+/**************************/
+
+.section-testimonials {
+  background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+
+
 /* FOOTER SECTION */
 
 .footer
